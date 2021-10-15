@@ -10,7 +10,8 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a program that allows you to initialize, add, commit, and push your code to the respository."
+    console.log(gitDefinition)
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,7 +20,8 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "GitHub is the location where your global/public respositories stores all initialized, added, committed, and pushed code files."
+    console.log(gitHubDefinition)
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -35,6 +37,11 @@
 */
 
 //CODE HERE
+let init = ("description", "code")
+
+description = " Initialize a local repository right here in this folder."
+code = "git init:"
+    console.log(code + description)
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -43,6 +50,11 @@
 */
 
 //CODE HERE
+let clone = ("description", "code")
+
+description = " Copy a specific repository from GitHub and store that copy on my local machine."
+code = "git clone (i.e. git clone <URL of repository>:"
+    console.log(code + description)
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +63,11 @@
 */
 
 //CODE HERE
+let status = ("description", "code")
+
+description = " Provides details about the specific repository."
+code = "git status:"
+    console.log(code + description)
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +76,11 @@
 */
 
 //CODE HERE
+let add = ("description", "code")
+
+description = " Git dds some file(s) and file content to be tracked (always!) in the repository."
+code = "git add:"
+    console.log(code + description)
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +89,11 @@
 */
 
 //CODE HERE
+let commit = ("description", "code")
+
+description = " Git creates a snapshot of the file(s) being tracked."
+code = "git commit:"
+    console.log(code + description)
 
 
 //////////////////PROBLEM 8////////////////////
@@ -76,3 +103,8 @@
 */
 
 //CODE HERE
+let push = ("description", "code")
+
+description = " Git pushes an updated version of the specific file(s) and file content being tracked."
+code = "git push:"
+    console.log(code + description)
