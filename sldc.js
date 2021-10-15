@@ -18,9 +18,9 @@
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
 */
 
-let Planning
-let AnalysisofRequirements
-let Design
-let TestingIntegration
-let Implementation
-let Maintain
+let Planning = 1
+let AnalysisofRequirements = 2
+let Design = 3
+let TestingIntegration = 4
+let Implementation = 5
+let Maintain = 6
