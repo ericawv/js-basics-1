@@ -2,8 +2,11 @@
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
 const faveColors = ['red', 'green', 'black']
+const colorCopy = faveColors.slice(0,2)
 
 //CODE HERE
+
+
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
