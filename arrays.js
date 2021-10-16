@@ -43,5 +43,18 @@ const middleNums = numbers.splice(1,3)
 */
 
 // CODE HERE
+function bigOrSmall([arr]){
+let answers = [] 
 
-
+for (i = 0; bigOrSmall([arr]) > 100; i++) {
+  if (bigOrSmall([arr]) > 100) {
+    answers.push('big')
+  }
+  else if (bigOrSmall([arr]) <= 100) {
+      answers.push('small')
+  }
+  else{
+    return answers[arr]
+  }
+}
+}
